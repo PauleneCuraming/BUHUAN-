@@ -1,59 +1,243 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# BUHUAN
+### Online Barangay Service Management System for Barangay Buhuan
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+BUHUAN is an online barangay service management system developed to digitalize and streamline barangay services for Barangay Buhuan. It provides a centralized platform where residents can access barangay services online, while barangay administrators can manage requests, appointments, resident accounts, and administrative transactions more efficiently.
 
-## About Laravel
+The system aims to reduce manual processes, improve the organization of barangay records, and provide residents with a more convenient way to access essential services.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Project Overview
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Traditional barangay transactions often require residents to visit the barangay office for document requests, inquiries, and appointments. Manual processing may also make it difficult to organize requests and monitor their progress.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+BUHUAN addresses these challenges by providing an online platform that supports digital transactions between residents and barangay personnel.
 
-## Learning Laravel
+Through the system, residents can submit requests and monitor their status, while administrators can review submissions, manage requests, and maintain organized records.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+## Objectives
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+The BUHUAN system aims to:
 
-## Laravel Sponsors
+- Improve accessibility to barangay services.
+- Simplify document requesting and appointment scheduling.
+- Reduce reliance on manual and paper-based transactions.
+- Provide organized management of resident accounts and requests.
+- Improve communication between residents and barangay administrators.
+- Support more efficient and transparent barangay service delivery.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## Intended Users
 
-### Premium Partners
+### Residents
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+Residents can create accounts, access available services, submit requests, schedule appointments, and monitor the status of their transactions.
 
-## Contributing
+### Barangay Administrators
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Authorized barangay personnel can manage resident accounts, review and process document requests, organize appointments, and oversee barangay service transactions.
 
-## Code of Conduct
+## System Features
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### Resident Portal
 
-## Security Vulnerabilities
+- **Account Registration and Login** – Allows residents to create accounts and securely access the system.
+- **Account Verification** – Supports verification and approval of resident accounts.
+- **Document Requests** – Allows residents to submit barangay document requests online.
+- **Request Tracking** – Enables residents to monitor the progress and status of their requests.
+- **Appointment Scheduling** – Allows residents to schedule appointments for available barangay services.
+- **Notifications** – Provides updates related to system transactions.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Administrator Portal
 
-## License
+- **Resident Verification and Approval** – Reviews and approves resident account registrations.
+- **User Management** – Manages registered system users.
+- **Document Request Management** – Reviews, processes, and updates document requests.
+- **Appointment Management** – Organizes and manages resident appointments.
+- **Concerns and Meetings Management** – Supports the organization of barangay concerns and meetings.
+- **Records and Reports** – Provides access to administrative records and available reporting functions.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## How the System Works
+
+### For Residents
+
+1. Visit the BUHUAN website.
+2. Register a resident account.
+3. Complete the required verification and approval process.
+4. Log in to the resident portal.
+5. Select an available barangay service.
+6. Submit a document request or schedule an appointment.
+7. Monitor the status of the submitted transaction.
+
+### For Administrators
+
+1. Log in using an authorized administrator account.
+2. Review pending resident account registrations.
+3. Verify and approve eligible accounts.
+4. Review incoming document requests and appointments.
+5. Process requests and update their statuses.
+6. Manage available barangay records and administrative transactions.
+
+## Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| Laravel (PHP) | Backend framework and application logic |
+| MySQL | Database management |
+| Blade Templates | Server-side interface rendering |
+| HTML | Webpage structure |
+| CSS | Interface styling |
+| JavaScript | Interactive interface functionality |
+| Vite | Frontend asset development and bundling |
+
+## System Requirements
+
+Before installing BUHUAN, ensure that the following are available:
+
+- PHP compatible with the project's Laravel version
+- Composer
+- Node.js and npm
+- MySQL
+- XAMPP or an equivalent local database server
+- Visual Studio Code or another code editor (optional)
+- A modern web browser
+
+## How to Download BUHUAN
+
+### Option 1: Download ZIP
+
+1. Open the BUHUAN GitHub repository.
+2. Click the green **Code** button.
+3. Select **Download ZIP**.
+4. Extract the downloaded ZIP file.
+5. Open the extracted project folder.
+
+### Option 2: Clone Using Git
+
+Open a terminal and run:
+
+```bash
+git clone https://github.com/PauleneCuraming/BUHUAN-.git
+cd BUHUAN-
+```
+
+## Installation Guide
+
+### Step 1: Install Dependencies
+
+Open a terminal inside the BUHUAN project folder and run:
+
+```bash
+composer install
+npm install
+```
+
+### Step 2: Configure Environment
+
+Create a `.env` file from `.env.example`.
+
+For Windows PowerShell:
+
+```powershell
+Copy-Item .env.example .env
+```
+
+Generate the Laravel application key:
+
+```bash
+php artisan key:generate
+```
+
+### Step 3: Configure the Database
+
+1. Open XAMPP Control Panel.
+2. Start MySQL.
+3. Open `http://localhost/phpmyadmin`.
+4. Create a new database named `buhuan_db`.
+5. Open the `.env` file and update the database settings:
+
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=buhuan_db
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+Adjust the credentials according to your local MySQL configuration.
+
+### Step 4: Create Database Tables
+
+Run:
+
+```bash
+php artisan migrate
+```
+
+If the project includes complete seeders for required initial data, run:
+
+```bash
+php artisan db:seed
+```
+
+The migration and seeding process must be verified against the actual project before use.
+
+### Step 5: Configure Storage
+
+```bash
+php artisan storage:link
+```
+
+### Step 6: Run BUHUAN
+
+Start the Laravel development server:
+
+```bash
+php artisan serve
+```
+
+Open another terminal and run:
+
+```bash
+npm run dev
+```
+
+### Step 7: Access the System
+
+Open a browser and visit:
+
+http://127.0.0.1:8000
+
+The BUHUAN application should load if all dependencies and configuration requirements have been satisfied.
+
+## Account Setup
+
+### Resident Account
+
+Residents can register through the system's registration page and follow the existing verification and approval process before accessing applicable services.
+
+### Administrator Account
+
+Administrator accounts require secure initial configuration. The installer must follow the project's supported administrator setup procedure.
+
+Never publish production administrator passwords or real user credentials in this repository.
+
+## Important Notes
+
+- BUHUAN requires a properly configured MySQL database.
+- Database migrations must include all tables required by the application.
+- Required reference data and initial accounts may need additional setup.
+- Email-based functionality may require mail service configuration.
+- The actual `.env` file, private resident information, and identification documents must not be uploaded.
+- Installation instructions should be tested using a fresh database before distribution.
+- Running the project locally is different from deploying it to a publicly accessible website.
+
+## Project Purpose
+
+BUHUAN was developed to support the digital transformation of barangay services by making common transactions more accessible, organized, and efficient.
+
+The system serves as a supplementary digital platform for residents and barangay personnel, helping improve service delivery, transaction monitoring, and administrative management.
+
+## Project Repository
+
+**GitHub:** https://github.com/PauleneCuraming/BUHUAN-
+
+The repository contains the source code and setup instructions for downloading and installing BUHUAN.
